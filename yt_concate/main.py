@@ -1,11 +1,12 @@
 import urllib.request
 import json
+from yt_concate.settings import API_KEY
 
 CHANNEL_ID = 'UCKSVUHI9rbbkXhvAXK-2uxA'
 
 
 def get_all_video_in_channel(channel_id):
-    api_key = "AIzaSyCCW2SeI5E0fklcDsx692t-gftBFdissWM"
+    api_key = API_KEY
 
     base_video_url = 'https://www.youtube.com/watch?v='
     base_search_url = 'https://www.googleapis.com/youtube/v3/search?'
