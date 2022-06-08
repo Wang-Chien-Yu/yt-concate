@@ -1,9 +1,9 @@
 from yt_concate.pipeline.steps.get_video_list import GetVideoList
 from yt_concate.pipeline.steps.step import StepException
 
-
-CHANNEL_ID = 'UCKSVUHI9rbbkXhvAXK-2uxA'
-
+inputs = {
+    'channel_id':'UCKSVUHI9rbbkXhvAXK-2uxA'
+}
 steps = [
     GetVideoList(),
 ]
